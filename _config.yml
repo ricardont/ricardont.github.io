@@ -16,7 +16,7 @@ timezone: America/Chihuahua
 
 title: ricardont # the mahttps://www.linkedin.com/in/ricardoont/in title
 
-tagline: I'm an enthusiastic software engineer, this is my portfolio.
+tagline: I'm an enthusiastic software engineer, this is my portfolio blog.
 
 description: >- # used by seo meta and the atom feed
  Ricardo Portfolio.
@@ -37,10 +37,10 @@ timezone:
 # ↓ --------------------------
 title: ricardont # the main title
 
-tagline: I'm an enthusiastic software engineer, this is my portfolio.
+tagline: I'm an enthusiastic software engineer, this is my portfolio blog.
 
 description: >- # used by seo meta and the atom feed
-  I'm an enthusiastic software engineer, this is my portfolio.
+  I'm an enthusiastic software engineer, this is my portfolio blog.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does A minimal, responsive and feature-rich Jekyll themenot end with a '/'.
@@ -175,7 +175,7 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
-      path: assets/img/favicons
+      path: assets/img
     values:
       swcache: true
   - scope:
@@ -345,7 +345,7 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
-      path: assets/img/favicons
+      path: assets/img
     values:
       swcache: true
   - scope:
